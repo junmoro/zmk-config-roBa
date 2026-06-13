@@ -39,11 +39,6 @@
             key-positions = <12 13>;
         };
 
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
         double_quotation {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <20 21>;
@@ -132,7 +127,7 @@
             >;
         };
 
-        CONTROLL {
+        CONTROL {
             bindings = <
 &kp LS(LC(Q))       &kp LS(LC(W))       &kp LS(LC(MINUS))  &kp LS(LC(EQUAL))    &kp LS(LC(K))                             &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2       &bt BT_SEL 3     &bt BT_SEL 4
 &kp LS(LC(A))       &kp LS(LC(S))       &kp LS(LC(D))      &kp LS(LC(F))        &kp LS(LC(C))  &trans      &kp LC(LG(Q))  &trans        &kp K_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans
