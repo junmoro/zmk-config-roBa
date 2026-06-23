@@ -119,6 +119,66 @@
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <30 31>;
         };
+
+        exclamation {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <0 10>;
+        };
+
+        at_sign {
+            bindings = <&kp AT_SIGN>;
+            key-positions = <1 11>;
+        };
+
+        hash {
+            bindings = <&kp HASH>;
+            key-positions = <2 12>;
+        };
+
+        dollar {
+            bindings = <&kp DOLLAR>;
+            key-positions = <3 13>;
+        };
+
+        percent {
+            bindings = <&kp PERCENT>;
+            key-positions = <4 14>;
+        };
+
+        caret {
+            bindings = <&kp CARET>;
+            key-positions = <10 22>;
+        };
+
+        ampersand {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <11 23>;
+        };
+
+        asterisk {
+            bindings = <&kp ASTERISK>;
+            key-positions = <12 24>;
+        };
+
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <14 13>;
+        };
+
+        backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <13 12>;
+        };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <26 25>;
+        };
+
+        grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <25 24>;
+        };
     };
 
     macros {
@@ -155,10 +215,10 @@
 
         SYMBOLS {
             bindings = <
-&trans           &kp PIPE       &kp TILDE  &kp DOUBLE_QUOTES  &trans                           &trans     &kp UNDERSCORE  &kp PLUS      &kp LEFT_BRACE        &kp RIGHT_BRACE
-&kp EXCLAMATION  &kp AT_SIGN    &kp HASH   &kp DOLLAR         &kp PERCENT  &trans      &trans  &kp CARET  &kp AMPERSAND   &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&trans           &kp BACKSLASH  &kp GRAVE  &kp SQT            &trans       &trans      &trans  &trans     &kp MINUS       &kp EQUAL     &kp LEFT_BRACKET      &kp RIGHT_BRACKET
-&trans           &trans         &trans     &trans             &trans       &trans      &trans  &trans                                                         &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
 
