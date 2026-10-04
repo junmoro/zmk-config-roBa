@@ -265,7 +265,7 @@ layers:
   - {t: ▽, type: trans}
   - BT CLR ALL
 combos:
-- p: [11, 12]
+- p: [4, 3]
   k: TAB
 - p: [9, 21]
   k: ':'
@@ -323,3 +323,5 @@ combos:
   k: '~'
 - p: [25, 24]
   k: '`'
+- p: [3, 2]
+  k: Sft+TAB
