@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - B
-  - Ctl+B
+  - Ctl+\
   - {t: ESCAPE, h: MOUSE}
   - N
   - M
